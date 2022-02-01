@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/metawave/static/css/main.89892d83.css",
+    "main.js": "/metawave/static/js/main.fb630d81.js",
+    "static/media/logo.svg": "/metawave/static/media/logo.a8196fef6ae8514803c0fc2cec24da75.svg",
+    "index.html": "/metawave/index.html",
+    "main.89892d83.css.map": "/metawave/static/css/main.89892d83.css.map",
+    "main.fb630d81.js.map": "/metawave/static/js/main.fb630d81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89892d83.css",
+    "static/js/main.fb630d81.js"
+  ]
+}
