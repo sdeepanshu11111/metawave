@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Fade, Slide } from "react-awesome-reveal";
 import "./style.scss";
-import Logo from "./../assets/Icons/logo.svg";
+import Logo from "../../assets/Icons/logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

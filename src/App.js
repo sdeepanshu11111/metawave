@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-import "./App.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Nav";
+import Main from "./components/Main";
 
 function App() {
   useEffect(() => {
@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Main />
     </div>
   );
 }
