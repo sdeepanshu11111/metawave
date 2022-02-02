@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/metawave/static/css/main.1913924d.css",
+    "main.css": "/metawave/static/css/main.45ff044f.css",
     "main.js": "/metawave/static/js/main.23f1eca8.js",
     "static/media/logo.svg": "/metawave/static/media/logo.a8196fef6ae8514803c0fc2cec24da75.svg",
     "index.html": "/metawave/index.html",
-    "main.1913924d.css.map": "/metawave/static/css/main.1913924d.css.map",
+    "main.45ff044f.css.map": "/metawave/static/css/main.45ff044f.css.map",
     "main.23f1eca8.js.map": "/metawave/static/js/main.23f1eca8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1913924d.css",
+    "static/css/main.45ff044f.css",
     "static/js/main.23f1eca8.js"
   ]
 }
