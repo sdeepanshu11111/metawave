@@ -7,7 +7,7 @@
   padding-left: 4%;
   padding-right: 4%;
   position: relative;
-  box-shadow: 0 5px 5px -5px var(--purpletheme);
+  // box-shadow: 0 5px 5px -5px var(--purpletheme);
 
   .list {
     display: flex;
@@ -79,7 +79,12 @@
 
 .sider {
   z-index: 99;
-  background: url(../../assets/backgrounds/mainbg.svg);
+  background: linear-gradient(
+    139deg,
+    rgba(18, 29, 51, 1) 79%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
   // background-color: red;
   .sider-logo {
     width: 100%;

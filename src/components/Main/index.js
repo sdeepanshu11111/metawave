@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade, Slide, bounce, flash, rubberBand } from "react-awesome-reveal";
+import Typing from "react-typing-animation";
+
 import "./style.scss";
 
 const Main = () => {
@@ -7,22 +9,18 @@ const Main = () => {
     <div className="main">
       <Fade cascade>
         <h1>WELCOME TO</h1>
-        <h2>METAVERSE STUDIOS</h2>
+        <h2>METAWAVE STUDIOS</h2>
         <div className="left">
           <div className="line"></div>
           <h1>
-            A Web3 based studio working on building & delivering infrastructure
-            for the next iteration.
+            A Web 3.0 based studio working on building & delivering
+            infrastructure for the next internet
           </h1>
 
           <h2>
-            Our mission is to fabricate pioneering Web3 based solutions,
+            Our mission is to fabricate pioneering Web 3.0 based solutions,
             products & applications
           </h2>
-          {/* <h2>
-            which incorporate decentralization without relying on authentication
-            systems or a third party and to make Web3 accessible to everyone.
-          </h2> */}
         </div>
       </Fade>
     </div>
