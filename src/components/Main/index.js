@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Fade, Slide, bounce, flash, rubberBand } from "react-awesome-reveal";
-import Typing from "react-typing-animation";
 
 import "./style.scss";
 
