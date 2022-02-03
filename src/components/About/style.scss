@@ -1,0 +1,94 @@
+.about-us {
+  padding: 4% 14%;
+  padding-right: 5%;
+  height: 500px;
+
+  h1 {
+    color: var(--purpletheme)
+  }
+
+  .wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      width:55%;
+      h1 {
+        color:#898989;
+        font-size:2rem;
+      }
+      h3 {
+        font-size:1rem;
+        color:#898989;
+        margin-top:20px;
+        font-weight: 400;
+      }
+      h4 {
+        margin-top: 20px;
+        color: var(--purpletheme);
+        font-weight:400;
+      }
+    }
+  }
+  .css-1dxe8h0 {
+    background: url(../../assets/Characters/About_us.jpg);
+    background-size: cover;
+    height:400px;
+    width: 45%;
+    background-position: center;
+  
+  }
+}
+
+
+// 
+@media only screen and (max-width: 600px) {
+
+  .about-us {
+    padding: 5% 5%;
+  
+    h1 {
+      text-align: center;
+    }
+
+    .wraper {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+  
+     
+      .left {
+        width:100%;
+        margin-top:30px;
+        order: 2;
+        h1 {
+          color:#898989;
+          font-size:2rem;
+          text-align: left;
+        }
+        h3 {
+          font-size:1rem;
+          color:#898989;
+          margin-top:20px;
+          font-weight: 400;
+          text-align: left;
+          line-height: 2.2;
+        }
+      }
+    }
+    .css-1dxe8h0 {
+      order: 1;
+      background: url(../../assets/Characters/About_us.jpg);
+      background-size: cover;
+      height:320px;
+      width: 100%;
+      background-position: center;
+    
+    }
+
+  }
+
+
+}

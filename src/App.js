@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Navbar from "./components/Nav";
 import Main from "./components/Main";
+import About from "./components/About";
 
 function App() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Main />
+      <About />
     </div>
   );
 }

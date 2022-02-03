@@ -6,7 +6,11 @@
   justify-content: space-between;
   padding-left: 4%;
   padding-right: 4%;
+  width: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content:center;
   // box-shadow: 0 5px 5px -5px var(--purpletheme);
 
   .list {
@@ -79,14 +83,13 @@
 
 .sider {
   z-index: 99;
-  background: linear-gradient(
-    139deg,
-    rgba(18, 29, 51, 1) 79%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: #121d33;
 
   // background-color: red;
   .sider-logo {
+    img {
+      height: 6vh;
+    }
     width: 100%;
     display: flex;
     align-items: center;
