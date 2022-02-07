@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/metawave/static/css/main.4290f728.css",
+    "main.css": "/metawave/static/css/main.5b94ffbc.css",
     "main.js": "/metawave/static/js/main.c755588a.js",
     "static/media/About_us.jpg": "/metawave/static/media/About_us.aa1de8844282f5390af2.jpg",
     "static/media/logo.png": "/metawave/static/media/logo.1fc622ba3f9351b3b227.png",
@@ -8,11 +8,11 @@
     "static/media/ripple.svg": "/metawave/static/media/ripple.bd34802cf2ea313157e8.svg",
     "static/media/binance.svg": "/metawave/static/media/binance.9f0ead390fa05491b501.svg",
     "index.html": "/metawave/index.html",
-    "main.4290f728.css.map": "/metawave/static/css/main.4290f728.css.map",
+    "main.5b94ffbc.css.map": "/metawave/static/css/main.5b94ffbc.css.map",
     "main.c755588a.js.map": "/metawave/static/js/main.c755588a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4290f728.css",
+    "static/css/main.5b94ffbc.css",
     "static/js/main.c755588a.js"
   ]
 }
