@@ -1,10 +1,11 @@
 .about-us {
   padding: 4% 14%;
   padding-right: 5%;
- 
-padding-bottom: 30px;
+  padding-top: 80px;
+
+  padding-bottom: 30px;
   h1 {
-    color: var(--purpletheme)
+    color: var(--purpletheme);
   }
 
   .wraper {
@@ -12,42 +13,42 @@ padding-bottom: 30px;
     align-items: center;
     justify-content: space-between;
     .left {
-      width:55%;
+      width: 55%;
       h1 {
-        color:#898989;
-        font-size:2rem;
+        color: #898989;
+        font-size: 2rem;
       }
       h3 {
-        font-size:1rem;
-        color:#898989;
-        margin-top:20px;
+        font-size: 1rem;
+        color: #898989;
+        margin-top: 20px;
         font-weight: 400;
         line-height: 2.2;
       }
       h4 {
         margin-top: 20px;
         color: var(--purpletheme);
-        font-weight:400;
+        font-weight: 400;
       }
     }
   }
   .css-1dxe8h0 {
     background: url(../../assets/Characters/About_us.jpg);
     background-size: cover;
-    height:400px;
+    height: 400px;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
     width: 45%;
     background-position: center;
-  
   }
 }
 
-
-// 
+//
 @media only screen and (max-width: 600px) {
-
   .about-us {
     padding: 5% 5%;
-  
+    padding-top: 80px;
+
     h1 {
       text-align: center;
     }
@@ -58,21 +59,20 @@ padding-bottom: 30px;
       align-items: center;
       justify-content: space-between;
       flex-direction: column;
-  
-     
+
       .left {
-        width:100%;
-        margin-top:30px;
+        width: 100%;
+        margin-top: 30px;
         order: 2;
         h1 {
-          color:#898989;
-          font-size:2rem;
+          color: #898989;
+          font-size: 2rem;
           text-align: left;
         }
         h3 {
-          font-size:1rem;
-          color:#898989;
-          margin-top:20px;
+          font-size: 1rem;
+          color: #898989;
+          margin-top: 20px;
           font-weight: 400;
           text-align: left;
           line-height: 2.2;
@@ -83,13 +83,11 @@ padding-bottom: 30px;
       order: 1;
       background: url(../../assets/Characters/About_us.jpg);
       background-size: cover;
-      height:320px;
+      height: 320px;
       width: 100%;
+      background-size: 200px 200px;
+      background-repeat: no-repeat;
       background-position: center;
-    
     }
-
   }
-
-
 }

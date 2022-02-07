@@ -1,0 +1,165 @@
+.projects {
+  padding-top: 140px;
+  background: #f2f4f8;
+  padding-left: 14%;
+  padding-right: 14%;
+
+  .text {
+    h1 {
+      margin-bottom: 24px;
+      font-size: 16px;
+      color: #8d8d95;
+      text-align: center;
+      font-weight: 400;
+    }
+
+    h2 {
+      margin-bottom: 24px;
+      text-align: center;
+      color: var(--purpletheme);
+    }
+
+    p {
+      line-height: 1.2;
+
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1a202c;
+    }
+    padding-bottom: 20px;
+  }
+
+  .cards {
+    margin-top: 50px;
+
+    .card {
+      display: flex;
+      align-items: flex-end;
+      .img-container.one {
+        width: 40%;
+        background-color: #1a202c;
+        background: url(../../assets/Icons/ethereum.svg);
+        height: 260px;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+      }
+
+      .img-container.two {
+        width: 40%;
+        background-color: #1a202c;
+        background: url(../../assets/Icons/ripple.svg);
+        height: 260px;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: bottom;
+      }
+
+      .img-container.three {
+        width: 40%;
+        background-color: #1a202c;
+        background: url(../../assets/Icons/binance.svg);
+        height: 260px;
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-position: center;
+      }
+
+      .side-text {
+        margin-bottom: 60px;
+        width: 60%;
+        .btn {
+          margin-bottom: 12px;
+        }
+
+        h2 {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+}
+
+//
+
+@media only screen and (max-width: 600px) {
+  .projects {
+    padding-top: 100px;
+    background: #f2f4f8;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    .text {
+      h1 {
+        text-align: left;
+      }
+
+      h2 {
+        text-align: left;
+      }
+
+      p {
+        line-height: 1.2;
+        width: 90%;
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #1a202c;
+      }
+      padding-bottom: 20px;
+    }
+
+    .cards {
+      margin-top: 50px;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .img-container.one {
+          width: 100%;
+          background-color: #1a202c;
+          background: url(../../assets/Icons/ethereum.svg);
+          height: 260px;
+          background-repeat: no-repeat;
+          background-size: 200px 200px;
+          background-position: center;
+        }
+
+        .img-container.two {
+          width: 100%;
+          background-color: #1a202c;
+          background: url(../../assets/Icons/ripple.svg);
+          height: 260px;
+          background-repeat: no-repeat;
+          background-size: 200px 200px;
+          background-position: bottom;
+        }
+
+        .img-container.three {
+          width: 100%;
+          background-color: #1a202c;
+          background: url(../../assets/Icons/binance.svg);
+          height: 260px;
+          background-repeat: no-repeat;
+          background-size: 200px 200px;
+          background-position: center;
+        }
+
+        .side-text {
+          margin-bottom: 60px;
+          width: 100%;
+          .btn {
+            margin-bottom: 12px;
+          }
+
+          h2 {
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+}

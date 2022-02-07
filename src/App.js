@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Navbar from "./components/Nav";
 import Main from "./components/Main";
+import Projects from "./components/Projects"
 import About from "./components/About";
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Main />
+      <Projects />
       <About />
-    </div>
+    </div >
   );
 }
 
