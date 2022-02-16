@@ -1,25 +1,37 @@
-import React, { useState, useEffect } from "react";
+import Header from "./components/Header/index";
+import Main from "./components/Main/index"
 
-import Navbar from "./components/Nav";
-import Main from "./components/Main";
-import Projects from "./components/Projects"
-import About from "./components/About";
+
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 function App() {
-  useEffect(() => {
-    var x = window.matchMedia("(max-width: 600px)");
 
-    console.log("x", x);
-  });
 
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
-      <Projects />
-      <About />
-    </div >
-  );
+
+      <div className="app'">
+        {/* <Router>
+        <Routes>
+
+          <Route exact ={'/'}  element = {<><Header/><Main/></>} />
+
+          
+        </Routes>
+
+        </Router> */}
+
+
+        <Main/>
+
+
+      </div>
+    
+
+  )
+
+    ;
 }
 
 export default App;
