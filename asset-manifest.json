@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/metawave/static/css/main.d66aff35.css",
-    "main.js": "/metawave/static/js/main.7d381f35.js",
+    "main.css": "/metawave/static/css/main.9db1409e.css",
+    "main.js": "/metawave/static/js/main.02ae7874.js",
     "static/media/team-bg.jpg": "/metawave/static/media/team-bg.6fef4b35256acda8f64e.jpg",
     "static/media/METAWAVE COLOR.svg": "/metawave/static/media/METAWAVE COLOR.825e8500f40bbec6e3a9d0869f7233fe.svg",
     "static/media/blog.jpeg": "/metawave/static/media/blog.23559dd0da9af14bb41e.jpeg",
@@ -15,11 +15,11 @@
     "static/media/easy.svg": "/metawave/static/media/easy.14aee3bc70d24d2daec05f26270c4dd0.svg",
     "index.html": "/metawave/index.html",
     "static/media/burger.svg": "/metawave/static/media/burger.5181571974fa8c324ee81bf69f4af86f.svg",
-    "main.d66aff35.css.map": "/metawave/static/css/main.d66aff35.css.map",
-    "main.7d381f35.js.map": "/metawave/static/js/main.7d381f35.js.map"
+    "main.9db1409e.css.map": "/metawave/static/css/main.9db1409e.css.map",
+    "main.02ae7874.js.map": "/metawave/static/js/main.02ae7874.js.map"
   },
   "entrypoints": [
-    "static/css/main.d66aff35.css",
-    "static/js/main.7d381f35.js"
+    "static/css/main.9db1409e.css",
+    "static/js/main.02ae7874.js"
   ]
 }
