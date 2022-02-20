@@ -53,7 +53,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="ulList">
+      <div className={`ulList ${toggle === true ? `show-ul` : null}`}>
         <ul className="links-mobile">
           <li>
             <a href="/">Home</a>
