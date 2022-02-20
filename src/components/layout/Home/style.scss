@@ -1,74 +1,76 @@
-section{
-    // border: 1px solid black;
+section {
+  // border: 1px solid black;
 
-    .container{
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        height: 80vh;
+  .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 80vh;
 
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-        .btn-div{
-
-            // flex-direction: column;
-            justify-content: center;
-            
+    padding: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
-    margin-top: 28px;
-    margin-bottom: 8px;
-    padding: 6px;
-           
-        
-            a{
-                    background-color: transparent;
-                    outline: 2px solid blue;
-                padding: 10px 20px;
-                margin-left: 10px;
-                text-decoration: none;
-                // color: #E6007A;
-                border-radius: 25px;
-            }
-        
-        }
-
-
-        .h2-div{
-            padding: 20px;
-            h2{
-                padding-bottom: 2rem;
-                letter-spacing: 4px;
-            }
-        }
-
-
-
+    .img {
+      img {
+        display: none;
+      }
+      h1 {
+        font-size: 112px;
+        letter-spacing: 4px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        color: #1e1e1e;
+      }
     }
 
+    .btn-div {
+      // flex-direction: column;
+      justify-content: center;
 
+      display: flex;
+
+      margin-top: 28px;
+      margin-bottom: 8px;
+      padding: 6px;
+
+      a {
+        background-color: transparent;
+        outline: 2px solid blue;
+        padding: 10px 20px;
+        margin-left: 10px;
+        text-decoration: none;
+        // color: #E6007A;
+        border-radius: 25px;
+      }
+    }
+
+    .h2-div {
+      padding: 20px;
+      h2 {
+        font-size: 18px;
+        padding-bottom: 2rem;
+        letter-spacing: 1px;
+        color: #1e1e1e;
+      }
+    }
+  }
 }
 
-
-
-
 // media Query
-@media screen and  (max-width : 786px){
-    section .container img{
-        width: 100% !important;
-    }
+@media screen and (max-width: 786px) {
+  section .container img {
+    width: 100% !important;
+  }
 
-    .btn-div{
-        // flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between !important;
-        height: 120px;
-        a{
-            margin: 4px;
-        }
+  .btn-div {
+    // flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between !important;
+    height: 120px;
+    a {
+      margin: 4px;
     }
-    
+  }
 }

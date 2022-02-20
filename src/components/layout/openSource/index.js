@@ -1,61 +1,53 @@
-import React from 'react'
-import Icon from "../../../assets/icons/icons.svg"
-import "./style.scss"
-import background from "../../../assets/banner/banner.jpg"
+import React from "react";
+import Icon from "../../../assets/icons/icons.svg";
+import "./style.scss";
+import background from "../../../assets/banner/team-bg.jpg";
+import OpenSourceIcon from "../../../assets/icons/open-source.png";
 
 const OpenSource = () => {
-    return (
+  return (
+    <section className="open">
+      <div className="parent">
+        <div className="card">
+          <div className="left">
+            <img src={OpenSourceIcon} alt="" />
+          </div>
 
-        <section className='open'>
+          <div className="right">
+            <h2>What is Web3?</h2>
 
-            <div className='parent'>
-                <div className='card'>
-                    <div className='left'>
-                        <h2>An open-source protocol built for everyone</h2>
-                    </div>
+            <h3>
+              ​Web3 or Web 3.0 is the upcoming third iteration of the evolution
+              of the internet that interconnects data in a decentralized way to
+              deliver a faster and more personalized user experience. It is
+              built using artificial intelligence, machine learning, and the
+              semantic web, and uses the blockchain security system to keep your
+              information safe and secure. The ultimate goal of Web 3.0 is to
+              create a more intelligent, connected, and open internet
+            </h3>
+          </div>
+        </div>
+        {/* 
+        <div className="card-icons">
+          <img src={Icon} alt="" />
+          <img src={Icon} alt="" />
+          <img src={Icon} alt="" />
+          <img src={Icon} alt="" />
+        </div> */}
+      </div>
 
-                    <div className='right'>
-                        <h2>Polkadot is an open-source project founded by the</h2>
-                        <a href="/">Web3 Foundation.</a>
-                        <h2>Web3 Foundation has commissioned five teams and over 100 developers to build Polkadot, including:</h2>
-                    </div>
-                </div>
+      <div className="banner" style={{ backgroundImage: `url(${background})` }}>
+        <div className="banner-card">
+          <h4>
+            Find your next role at Metawave and help us make blockchain
+            sculpturing the future of finance & the digital culture.
+          </h4>
 
+          <a href="">Work with us</a>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-
-
-                <div className='card-icons'>
-                    <img src={Icon} alt="" />
-                    <img src={Icon} alt="" />
-                    <img src={Icon} alt="" />
-                    <img src={Icon} alt="" />
-                </div>
-            </div>
-
-
-            <div className='banner' style={{ backgroundImage: `url(${background})` }} >
-
-                <div className='banner-card'>
-
-
-                    <h4>Founded by some of the blockchain industry’s foremost builders</h4>
-
-                    <a href="">Learn About the metawave Team</a>
-                </div>
-
-
-
-            </div>
-
-
-
-
-        </section>
-
-
-
-
-    )
-}
-
-export default OpenSource
+export default OpenSource;

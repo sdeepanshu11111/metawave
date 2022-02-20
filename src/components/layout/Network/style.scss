@@ -1,85 +1,91 @@
-.network{
+.network {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  //  height: 100vh;
 
- background-color: blue;
- color: white;
- text-align: center;
-//  height: 100vh;
-
-
- .parent{
+  .parent {
     //  border: 1px solid white;
-      width: 80%;
- margin: auto;
+    width: 80%;
+    margin: auto;
 
+    .row {
+      width: 70%;
+      margin: auto;
+      margin-bottom: 4rem;
 
-     .row{
-         width: 60%;
-         margin: auto;
-         padding-bottom: 1rem;
+      // border: 1px solid white;
+      h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+      }
 
-        // border: 1px solid white;
-        h2{
-            font-weight: 800;
-            font-size: 2rem;
-            padding-top: 4rem;
-            padding-bottom: 2rem;
+      p {
+        line-height: 1.6;
+      }
+    }
+
+    .card-parent {
+      //  border: 1px solid white;
+      display: flex;
+      justify-content: space-around;
+
+      .card {
+        //  border:  1px solid white;
+
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          margin-top: 2rem;
         }
 
-     }
+        img {
+          height: 100px;
+        }
 
+        p {
+          font-size: 14px;
+          text-align: center;
 
+          line-height: 1.4;
+          letter-spacing: 0.4px;
+        }
+      }
+      padding-bottom: 2rem;
+    }
 
-     .card-parent{
-        //  border: 1px solid white;
-         display: flex;
-         justify-content: space-around;
+    .learn {
+      padding-bottom: 2rem;
 
-         .card{
-            //  border:  1px solid white;
-
-             img{
-                 height: 100px;
-             }
-         }
-     }
-
-     .learn{
-         padding-bottom: 2rem;
-
-         .discover{
-             a{
-                 color: white;
-             }
-         }
-     }
-
-
- }
-
+      .discover {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
 }
-
 
 // media Query
-@media screen and  (max-width : 786px){
+@media screen and (max-width: 786px) {
+  .parent {
+    width: 96% !important;
+  }
 
-     .parent{
-         width: 96% !important;
-     }
-
-    .network{
-        height: auto;
-    }
-.network .parent .card-parent{
+  .network {
+    height: auto;
+  }
+  .network .parent .card-parent {
     flex-direction: column;
-}
+  }
 
-section .learn h2{
+  section .learn h2 {
     width: auto;
-}
+  }
 
-.network .parent .row{
+  .network .parent .row {
     width: auto;
-}
-
-    
+  }
 }

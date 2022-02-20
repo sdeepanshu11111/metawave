@@ -1,224 +1,183 @@
-header{
-    // border: 1px solid black;
-    height: 150px;
+header {
+  // border: 1px solid black;
+  height: 150px;
+  width: 100%;
+
+  .ulList {
+    display: none;
+  }
+
+  .header-bottom {
+    margin-top: 20px;
+    .links {
+      li {
+        a {
+          color: #1e1e1e;
+        }
+      }
+    }
+  }
+  .head-top {
+    border: 1px solid rgb(233, 233, 233);
+    padding: 4px;
     width: 100%;
 
-    .ulList{
-        display: none;
+    .center {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
     }
 
-    .head-top{
-        border: 1px solid rgb(233, 233, 233);
-        padding: 4px;
-        width: 100%;
+    .ul-parent {
+      display: flex;
+      // border: 1px solid black;
 
-        .center{
-            width: 70%;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-        }
+      width: 52%;
+      justify-content: space-around;
+      align-items: center;
 
-
-
-
-        .ul-parent{
-            display: flex;
-            // border: 1px solid black;
-
-            width: 52%;
-            justify-content: space-around;
-            align-items: center;
-
-            ul{
-
-            display: flex;
-            padding: 10px;
-            
-
-            }
-            ul li{
-                
-                list-style: none;
-                display: flex;
-                    // border: 1px solid black;
-                    justify-content: space-between;
-                    margin-left:14px;
-
-                
-            }
-            
-            ul a{
-                
-                text-decoration: none;
-                font-size: 12px;
-                
-            }
-
-            
-            button{
-                border: none;
-                outline: none;
-                background-color: whitesmoke;
-                margin-left: 10px;
-                margin-right: 20px;
-                padding: 8px;
-                border-radius: 25px;
-
-                a{
-                    padding: 10px;
-                }
-                
-                
-            }
-
-
-
-        }
-
-        
-    }
-
-
-    .header-bottom{
-
-        width: 70%;
-        margin: auto;
+      ul {
         display: flex;
+        padding: 10px;
+      }
+      ul li {
+        list-style: none;
+        display: flex;
+        // border: 1px solid black;
         justify-content: space-between;
-        align-items: center;
-        height: 55%;
+        margin-left: 14px;
+      }
 
-        .img{
-            // border: 1px solid black;
-            background-color: blue;
-            padding: 10px;
-            border-radius: 4px;
-            img{
-                height: 20px;
-            }
-            
-         
+      ul a {
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      button {
+        border: none;
+        outline: none;
+        background-color: whitesmoke;
+        margin-left: 10px;
+        margin-right: 20px;
+        padding: 8px;
+        border-radius: 25px;
+
+        a {
+          padding: 10px;
         }
+      }
+    }
+  }
 
-        ul {
-            display: flex;
-            width: 60%;
-            justify-content: flex-end;
-            align-items: center;
-            padding: 20px;
-        
-            li{
-                list-style: none;
-                padding-left: 40px;
-            }
+  .header-bottom {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55%;
 
-            li a{
-                text-decoration: none;
-            }
-        
-        }
+    .img {
+      // border: 1px solid black;
 
-        
-
-
+      height: 50px;
+      display: flex;
+      align-items: center;
+      h2 {
+        margin-left: 20px;
+        margin-top: 8px;
+      }
+      img {
+        height: 100%;
+      }
     }
 
-    .burger{
-        display: none;
+    ul {
+      display: flex;
+      width: 60%;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 20px;
+
+      li {
+        list-style: none;
+        padding-left: 40px;
+      }
+
+      li a {
+        text-decoration: none;
+      }
     }
+  }
 
-    // .ulList{
-    //     display: none;
-    // }
+  .burger {
+    display: none;
+  }
 
-    position: relative;
+  // .ulList{
+  //     display: none;
+  // }
 
-
-  
+  position: relative;
 }
 
+@media screen and (max-width: 786px) {
+  .ulList {
+    background-color: whitesmoke;
+    width: 100%;
+    display: block !important;
 
-@media screen and  (max-width : 786px){
-
-    .ulList{
-
-        background-color: whitesmoke;
-        width: 100%;
-        display: block !important;
-
-        position: absolute;
-            top: 50%;
+    position: absolute;
+    top: 50%;
     height: 40vh;
 
-    .links-mobile{
-            display: flex;
-    // border: 1px solid;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-    padding: 40px;
+    .links-mobile {
+      display: flex;
+      // border: 1px solid;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: start;
+      padding: 40px;
 
-    li{
+      li {
         list-style: none;
-        a{
-            text-decoration: none;
+        a {
+          text-decoration: none;
         }
+      }
     }
-    }
-    }
-
+  }
 }
 
 // media Query
-@media screen and  (max-width : 786px){
+@media screen and (max-width: 786px) {
+  header {
+    display: flex;
+    height: 135px;
+  }
 
-    header{
-        display: flex;
-        height: 135px;
+  .head-top {
+    display: none;
+  }
 
+  .header-bottom .links {
+    display: none;
+  }
 
-        
+  .burger {
+    width: 40px;
+    text-align: center;
+    background-color: rgb(216, 211, 211);
+    display: block !important;
+
+    img {
+      margin-top: 5px;
     }
+  }
 
-    .head-top{
-        display: none;
-    }
-
-    .header-bottom .links{
-        display: none;
-    }
-
-    .burger{
-        width: 40px;
-        text-align: center;
-        background-color: rgb(216, 211, 211);
-        display: block !important;
-       
-        img{
-            margin-top: 5px;
-        }
-    }
-
-
-    header .header-bottom {
-        width: 80%;
-    
-    
-    }
-
-    
-
-
-    
+  header .header-bottom {
+    width: 80%;
+  }
 }
-
-
-
-
-    
-
-
-
-

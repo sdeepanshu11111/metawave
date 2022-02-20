@@ -1,100 +1,39 @@
-import React from 'react'
-import Github from "../../assets/logo/gitIcon.svg"
-import "./style.scss"
+import React from "react";
+import twitter from "../../assets/icons/twitter.png";
+import linkdin from "../../assets/icons/linkdin.png";
+import logo from "../../assets/logo/flat.png";
+import "./style.scss";
 
 const Footer = () => {
-    return (
+  return (
+    <footer>
+      <div className="foot-div">
+        <div className="ul-div2">
+          <ul className="social">
+            <li>
+              <a href="/">
+                <img src={logo} alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="/">Term & Services</a>
+            </li>
+            <li>
+              <a href="/">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <div className="social-icons">
+          <a href="/">
+            <img src={twitter} alt="" />
+          </a>
+          <a className="linkdin" href="/">
+            <img src={linkdin} alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-        <footer>
-
-            <div className='foot-div'>
-
-                <div className='ul-div'>
-                    <ul>
-                        <h2>General</h2>
-                        <li>About</li>
-                        <li>FAQ</li>
-                        <li>Support</li>
-                        <li>Build</li>
-                        <li>Career</li>
-                    </ul>
-
-                    <ul>
-                        <h2>Technology</h2>
-                        <li>About</li>
-                        <li>FAQ</li>
-                        <li>Support</li>
-                        <li>Build</li>
-                        <li>Career</li>
-                    </ul>
-                </div>
-
-
-
-                <div className='ul-div2'>
-                    <ul>
-                        <h2>Community</h2>
-                        <li>About</li>
-                        <li>FAQ</li>
-                        <li>Support</li>
-                        <li>Build</li>
-                        <li>Career</li>
-                    </ul>
-
-                    <ul className='social'>
-
-                        <li>
-
-                            <a href="/">
-                                <img src={Github} alt="" />
-                            </a>
-
-                        </li>
-                        <li>
-
-                            <a href="/">
-                                <img src={Github} alt="" />
-                            </a>
-
-                        </li>
-                        <li>
-
-                            <a href="/">
-                                <img src={Github} alt="" />
-                            </a>
-
-                        </li>
-                        <li>
-
-                            <a href="/">
-                                <img src={Github} alt="" />
-                            </a>
-
-                        </li>
-                        <li>
-
-                            <a href="/">
-                                <img src={Github} alt="" />
-                            </a>
-
-                        </li>
-                    </ul>
-                </div>
-
-
-
-
-
-            </div>
-
-
-
-
-        </footer>
-
-
-
-    )
-}
-
-export default Footer
+export default Footer;
